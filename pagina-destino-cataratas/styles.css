@@ -1,0 +1,67 @@
+body {background-color: rgb(24, 175, 212);
+font-family: Arial, sans-serif;
+margin: 10px;
+padding: 10px;}
+
+nav {background-color: blanchedalmond;
+padding:10px;}
+
+nav ul {list-style: none;
+margin:0%;
+padding: 0;
+display: flex;
+justify-content: center;}
+
+nav li {margin: 015px;}
+
+nav a {color:rgb(32, 39, 37);font-family: sans-serif;
+text-decoration: none;
+font-weight: bold;}
+
+h1 {text-align: center;}
+h2 {text-align: center;}
+
+h5 {text-align: center;}
+table {background-color: rgb(193, 240, 224);
+margin: auto;
+border-collapse: separate;
+width: 60%;}
+
+table,th,td {border:2px solid black;
+padding: 10px;
+}
+
+form {width: 50%;
+margin:auto;
+background:rgb(193, 240, 224);
+padding: 20px;
+border-radius: 10px;}
+
+
+
+input,textarea,button {width: 95%;
+padding: 8px;
+margin: 5px 0;}
+
+button {background-color: rgb(187, 209, 202);
+color:white;
+border:solid; color:black;
+cursor:pointer;}
+
+button:hover {background-color:aqua ;}
+
+ul {display: flex;text-align: center;
+list-style: none;}
+
+li {margin: 15px;}
+
+img,ul {display: flex; text-align: center; list-style: none;}
+img, li {margin: 10px;
+border-radius: 5px;}
+
+img {border-radius: 5px;
+box-shadow:(0 0 0 01.5);
+}
+
+
+

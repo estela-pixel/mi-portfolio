@@ -1,0 +1,23 @@
+p {text-align: center; font-family:verdana;}
+
+h1 {text-align: center;font-family: verdana;}
+h2 {text-align: center;font-family:verdana;}
+h3 {text-align: center;font-family: verdana;}
+h4 {text-align: center;font-family: verdana;}
+body {
+    margin:15px;
+    padding: auto;
+}
+.col {
+    border-style: solid;
+    color:grey;
+    border-radius: 10px;
+    padding-top: 5px;
+    margin-top: 1px;
+}
+
+img {
+    border-radius: 5px;
+    box-shadow: 08px 20px
+    color(0 0 0.15);
+}

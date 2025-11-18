@@ -1,0 +1,45 @@
+body {
+    background-image: url(https://images.unsplash.com/photo-1465101162946-4377e57745c3?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Zm9uZG8lMjBkZSUyMGdhbGF4aWF8ZW58MHx8MHx8fDA%3D&fm=jpg&q=60&w=3000);
+    color: white;
+    text-align: center;
+    margin: 20%;
+}
+p {
+    color: darkslateblue;
+}
+a:link {
+    color: midnightblue;
+}
+.texto {
+    color: white;
+}
+.grande {
+    font-size: larger;
+}
+#hera {
+    color: white;
+    text-decoration: none;
+}
+img {
+    width: 40%;
+}
+.white {
+    color: white;
+}
+
+.btn-link {
+    display:inline-block;
+    font-size: 16px;
+    padding:20px 45px;
+    text-transform: uppercase;
+    cursor:pointer;
+    font-weight: 800;
+    color:rgb(107, 102, 35);
+    text-decoration: none;
+    background: wheat;
+    border-radius: 5px;
+}
+.btn-link:hover {
+    background: rgb(247, 229, 69);
+    border-radius: 5px;
+}

@@ -1,0 +1,55 @@
+body {
+  background-color: #faa8d8;
+  font-family: "Segoe UI", sans-serif;
+}
+
+/* Portada */
+.poster {
+  border-radius: 12px;
+  width: 100%;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.25);
+}
+
+/* Tarjetas */
+.info-card,
+.form-card {
+  background: #ffffff;
+  border-radius: 14px;
+  padding: 25px;
+  box-shadow: 0px 5px 18px rgba(0,0,0,0.15);
+}
+
+/* Botones */
+.btn-primary {
+  background-color: #d61c77;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #b01462;
+}
+.btn-link {
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  letter-spacing: 1px;
+  text-decoration: none;
+  background-color: #ffffff;
+  border-radius: 5px;
+  padding: 2px;
+
+}
+.btn-link:hover {
+  color:#faa8d8;
+}
+
+  
+
+/* Enlaces */
+a {
+  color: #d61c77;
+}
+
+a:hover {
+  color: #a90f56;
+}

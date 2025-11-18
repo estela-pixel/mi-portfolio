@@ -1,0 +1,162 @@
+/* ========================
+   ESTILOS GENERALES
+======================== */
+body{
+  font-family: 'Poppins', sans-serif;
+  background: #f7f7f7;
+  color: #333;
+  margin: 0;
+}
+
+h1, h2, h3{
+  font-weight: 700;
+  color: #b30086; /* Magenta */
+}
+
+/* ========================
+   NAVBAR
+======================== */
+.navbar{
+  background: #f8f3f7;
+  padding: 13px;
+
+}
+
+.navbar-brand, .nav-link{
+  color: #b30086 !important;
+  font-weight: 600;
+}
+
+.nav-link:hover{
+  color: #ffd9f2 !important;
+}
+
+/* ========================
+   SECCIÓN INICIO
+======================== */
+#inicio{
+  
+  padding: 220px 20px 20px 220px;
+  background: linear-gradient(135deg, #b30086, #ff4edb);
+  color: #fff;
+  text-align: center;
+}
+
+.text-magenta {
+  color:#fafafa;
+}
+.display-5 {
+  color:#fafafa;
+}
+
+
+.py-5bg-light {
+
+  background-color: rgb(172, 171, 171);
+}
+#inicio p{
+  max-width: 700px;
+  margin: 0 auto;
+  font-size: 1.2rem;
+}
+
+/* ========================
+   SECCIÓN PROYECTOS
+======================== */
+#proyectos{
+  padding: 80px 20px;
+}
+
+.project-card{
+  background: #ffffff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 6px 18px rgba(75,75,79,0.08);
+  transition: transform 0.35s ease, box-shadow 0.35s ease;
+  cursor: pointer;
+}
+
+.project-img{
+  width: 100%;
+  height: 170px;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+
+
+.project-card:hover{
+  transform: translateY(-10px) scale(1.03);
+  box-shadow: 0 15px 40px rgba(0,0,0,0.18);
+}
+
+.project-card:hover .project-img{
+  transform: scale(1.12);
+}
+
+.btn {
+  display:inline-block;
+  font-size: 13px;
+  padding: 10px 25px;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-weight: 400;
+  letter-spacing: 1 px;
+}
+
+
+
+.btn:hover {
+  border:1px;
+  background: #ee71cf;
+  border-style: solid;
+  color:white;
+}
+
+/* ========================
+   SECCIÓN HABILIDADES
+======================== */
+#habilidades{
+  padding: 80px 20px;
+  background: #fafafa;
+}
+
+.hability-box{
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.hability-box:hover{
+  transform: translateY(-8px);
+  box-shadow: 0 12px 28px rgba(0,0,0,0.15);
+}
+
+/* ========================
+   SECCIÓN CONTACTO
+======================== */
+#contacto{
+  padding: 80px 20px;
+  text-align: center;
+}
+
+#contacto a
+  
+
+#contacto a:hover
+  
+
+/* ========================
+   FOOTER
+======================== */
+footer{
+  background: #b30086;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 40px;
+}
